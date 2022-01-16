@@ -1,0 +1,36 @@
+#include<stdio.h>
+int main()
+{
+int marks;
+printf("enter marks of a student");
+scanf("%d",&marks);
+if(marks>=95)
+{
+printf("GRADE A+");
+}
+else if(marks>=85)
+{
+printf("GRADE A");
+}
+else if(marks>=75)
+{
+printf("GRADE B");
+}
+else if(marks>=60)
+{
+printf("GRADE C");
+}
+else if(marks>=40)
+{
+printf("GRADE D");
+}
+else if(marks>=35)
+{
+printf("GRADE E");
+}
+else
+{
+printf("PRINT FAIL");
+}
+return 0;
+}
