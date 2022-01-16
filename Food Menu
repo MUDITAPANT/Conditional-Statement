@@ -8,16 +8,16 @@ scanf("%d";&choice);
 switch(choice)
 {
 case 1:
-printf("Your dish is Dosa");
+printf("Your dish is Dosa\n Price:60");
 break;
 case 2:
-printf("Your dish is Idli");
+printf("Your dish is Idli\n Price:80");
 break;
 case 3:
-printf("Your dish is Vadapaw");
+printf("Your dish is Vadapaw\n Price:90");
 break;
 case 4:
-printf("Your dish is Rasam");
+printf("Your dish is Rasam\n Price:60");
 break;
 default:
 printf("invalid choice");
