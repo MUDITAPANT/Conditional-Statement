@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+int choice=0;
+printf("Pick your dish :\n1.Dosa\n2.Idli\n3.Vadapaw\n4.Rasam");
+scanf("%d";&choice);
+
+switch(choice)
+{
+case 1:
+printf("Your dish is Dosa");
+break;
+case 2:
+printf("Your dish is Idli");
+break;
+case 3:
+printf("Your dish is Vadapaw");
+break;
+case 4:
+printf("Your dish is Rasam");
+break;
+default:
+printf("invalid choice");
+}
+return 0;
+}
